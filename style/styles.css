@@ -14,9 +14,11 @@ body{
     margin-bottom: 50px;
 }
 .navbar{
+    width: inherit;
     margin-top: 0;
-    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color:aqua;
     padding: 15px;
 }

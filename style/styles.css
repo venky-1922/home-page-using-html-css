@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     overflow:inherit;
     /* font-family: "Fredoka One rev=2"; */
@@ -13,7 +14,7 @@ body{
 .HOME{
     margin-bottom: 50px;
 }
-.navbar{
+nav{
     width: inherit;
     margin-top: 0;
     display: flex;
@@ -23,10 +24,10 @@ body{
     padding: 15px;
 }
 
-.navbar h3{
+nav h3{
     padding-left: 30px;
 }
-.navbar h3 a{
+nav h3 a{
     color:#251749;
     text-decoration: none;
 

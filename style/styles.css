@@ -4,13 +4,11 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     overflow:inherit;
-    /* font-family: "Fredoka One rev=2"; */
 
 }
 body{
     background-color:white;
 }
-  /* home page */
   .wlcm{
     color:brown
   }
@@ -68,18 +66,14 @@ nav h3 a{
 }
 .address{
     margin-right: 200px;
-    /* background-color:aqua; */
     font-size: 30px;
     position: relative;
     top: 5px;
     left: 100px;
     padding: 20px;
     margin-bottom: 0px;
-    /* margin-top: 100px; */
-    /* border: 2px solid black; */
 }
 .ours{
-    /* background-color: bisque; */
     margin-right: 100px;
     text-align: center;
 }
@@ -93,19 +87,6 @@ nav h3 a{
     width: 40px;
     height: 40px;
 }
-/* .c_color{
-
-    background-color: rgb(182, 209, 218);
-    border: 2px solid black;
-    height: 500px;  
-    margin-right:0px;
-}
-.c_color label{
-    margin-left: 30px;
-}
-.abc{
-    margin-left: 28px;
-} */
 
 /* ABOUT */
 .about_heading{
@@ -113,8 +94,6 @@ nav h3 a{
     font-size:50px;
 }
 #ABOUT{
-    /* display:flex; */
-    /* flex-wrap:initial; */
     text-align: center;
     background-color: aquamarine;
     width: fit-content;
@@ -124,12 +103,9 @@ nav h3 a{
     width: 300px;
     height: 300px;
     justify-content: center;
-    /* float: left; */
-    /* margin-right: 20px; */
     border-radius: 50%;
 }
 .matter{
-    /* background-color: #CFFDE1; */
     height: fit-content;
     width: fit-content;
     font-size: 20PX;
@@ -147,7 +123,6 @@ nav h3 a{
 .grid-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    /* grid-template-columns: auto auto auto; */
     padding: 10px;
     gap: 50px;
     margin-left: 30px;

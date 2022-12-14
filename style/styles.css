@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:inherit;
+
+}
+body{
+    background-color:white;
+}
+  .wlcm{
+    color:brown
+  }
+.HOME{
+    margin-bottom: 50px;
+}
+nav{
+    width: inherit;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:aqua;
+    padding: 15px;
+}
+
+nav h3{
+    padding-left: 30px;
+}
+nav h3 a{
+    color:#251749;
+    text-decoration: none;
+
+}
+.home_img{
+    width: 100%;
+    background-color: yellow;
+    height:85vh;
+    object-fit: contain;
+}
+.home_img img{
+    height: inherit;
+    width: inherit;
+}
+.content{
+    margin: 0 50px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.software{
+    margin-top:20px;
+    color:#227C70
+}
+
+   /* contact */
+.headiing_contact{
+    text-decoration:underline;
+    font-size:50px;
+}
+#CONTACT{
+    padding-bottom: 10px;  
+    justify-content: center; 
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.address{
+    margin-right: 200px;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    left: 100px;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+.ours{
+    margin-right: 100px;
+    text-align: center;
+}
+.images{
+    margin-top: 0px;
+    margin-left: 0px;
+    
+}
+.images img{
+    padding:5px;
+    width: 40px;
+    height: 40px;
+}
+
+/* ABOUT */
+.about_heading{
+    text-decoration:underline ;
+    font-size:50px;
+}
+#ABOUT{
+    text-align: center;
+    background-color: aquamarine;
+    width: fit-content;
+    height: fit-content;
+}
+.image2 img{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    border-radius: 50%;
+}
+.matter{
+    height: fit-content;
+    width: fit-content;
+    font-size: 20PX;
+    line-height: 2.1;
+}
+
+/* Gallery */
+.gallery h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    padding: 10px;
+    gap: 50px;
+    margin-left: 30px;
+}
+.grid-container img{
+    width: 300px;
+    height:300px; 
+    border: 1px solid black;
+}

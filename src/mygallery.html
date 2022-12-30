@@ -9,26 +9,40 @@
 </head>
 <body>
     <nav>
-        <h3 ><a href="/src/index.html"> HOME</a></h3>
-        <h3 ><a href="contactme.html">CONTACT</a> </h3>
-        <h3 ><a href="aboutme.html">ABOUT</a></h3>
-        <h3 > <a href="#">GALLERY</a> </h3>
+        <h3 ><a href="/src/index.html" id="home"> HOME</a></h3>
+        <h3 ><a href="contactme.html"id="contact">CONTACT</a> </h3>
+        <h3 ><a href="aboutme.html" id="about">ABOUT</a></h3>
+        <h3 > <a href="#" id="gallery">GALLERY</a> </h3>
     </nav>
 
     <section class="gallery">
-        <h1>MY GALLERY</h1>
+       <center><h1>MY GALLERY</h1></center>
         <div class="grid-container">
+
             <img src="/images/a.jpg" alt="travelling">
             <img src="/images/b.png" alt="venky">
             <img src="/images/c.jpg" alt="software work environment">
-            <img src="/images/d.png" alt="programming">
-            <img src="/images/e.jpg" alt="work setup">
-            <img src="/images/f.jpg" alt="work setup-2">
-            <img src="/images/venkys1.jpg" alt="venky">
-            <img src="/images/Venkatesh.jfif" alt="venky">
-            <img src="/images/g.jpeg" alt="computational thinking">
+        </div>
+        <button id="first-button">see more....</button>
+        <div class="grid-container " id="second">
+            <!-- <div class="first"> -->
+    
+                <img src="/images/d.png" alt="programming">
+                <img src="/images/e.jpg" alt="work setup">
+                <img src="/images/f.jpg" alt="work setup-2">
+            <!-- </div> -->
+        </div>
+            <button id="second-button">see more....</button>
+        <div class="grid-container " id="third" >
+
+            <!-- <div class="second"> -->
+                <img src="/images/venkys1.jpg" alt="venky">
+                <img src="/images/Venkatesh.jfif" alt="venky">
+                <img src="/images/g.jpeg" alt="computational thinking">
+            <!-- </div> -->
         </div>
     </section>
-
+    <script src="/script/script.js"></script>
+    <script src="/script/gallery.js"></script>
 </body>
 </html>
